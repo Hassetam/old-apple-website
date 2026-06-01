@@ -7,12 +7,18 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Header */
 .header-wrapper {
     background: black;
     color: white;
     font-weight: 200;
     font-size: 0.75em;
+    height: 45px;
 }
 
 .header-wrapper ul {
@@ -25,7 +31,6 @@ img {
     width:980px;
     padding: 0 10px;    /* up and down, right and left */
     margin: 0 auto;     /* auto puts it in the center of the browser */
-    height: 45px;
 }
 
 .header-wrapper .header-links-wrapper ul li a {
@@ -56,6 +61,58 @@ img {
 .header-wrapper .header-links-wrapper ul li.logo-link, .cart-link, .search-link {
     padding: 12px 0 10px;
 }
+
+
+/* Main Highlight */
+.main-highlight-wrapper {
+    background: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.links-wrapper ul {
+    list-style: none;
+}
+
+.links-wrapper {
+    padding-top: 10px;
+    padding-bottom: 25px
+}
+
+.model {
+    font-size: 85%;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.brief-description {
+    font-size: 28px;;
+}
+
+.links-wrapper ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.links-wrapper ul li a {
+    text-decoration: none;
+    color: #06c;
+}
+
+.links-wrapper ul li a:hover {
+    color: #000;
+}
+
+.links-wrapper ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+
 
 
 /* Footer */
